@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("0d8f0f63-b751-4e07-a8d6-40cf7a3d859b",{name:"flavio.romero"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>resources.features.autorizar</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-12 07:26:37 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:27]"><span>[1.1:27]</span> <span>Api de Autorizar</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.2:28]"><span>[1.2:28]</span> <span>Api de Autorizar</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">resources/features/autorizar.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Pago Web Autorizar</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:27]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">autorizar</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:27]</span>
+                <span class="scenario-name">Api de Autorizar</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1790</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def TKS = call read(&#39;Seguridad.feature&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def TKT = call read(&#39;Antifraude.feature&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenSeguridad = Java.type(&#39;collection.api.Autorizar&#39;).token(&quot;1&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">28</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def xurl = Java.type(&#39;collection.api.Autorizar&#39;).url(&quot;1&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">16</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def xdata = Java.type(&#39;collection.api.Autorizar&#39;).data(&quot;&lt;CP&gt;&quot;, TKT.tokenId)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def xdata = Java.type(&#39;collection.api.Autorizar&#39;).data(&quot;1&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">143</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://apisandbox.vnforappstest.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = tokenSeguridad</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api.authorization/v3/authorization/&#39;+xurl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request xdata</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And request read(&#39;classpath:collection/request/Autorizar.json&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1490</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.20">19:26:34.929 request:
+1 &gt; POST https://apisandbox.vnforappstest.com/api.authorization/v3/authorization/ecommerce/456879852
+1 &gt; Accept: application/json
+1 &gt; Authorization: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwTWR3R0R6RjQ1YS1SbWs3bkhwc2lNYUJweFJQRjNzekEtNW1HWFllMThvIn0.eyJleHAiOjE2NTc2NzU1ODcsImlhdCI6MTY1NzY3MTk4NywianRpIjoiZTNlNWNmY2QtYzg5ZS00OGMyLThiZDQtOTg1YWMzOTdlMGE5IiwiaXNzIjoiaHR0cHM6Ly9hY2Nlc3MuaW50dm50LmNvbS9hdXRoL3JlYWxtcy9vbmxpbmUtYXBpcyIsInN1YiI6IjQyNjg5NzZlLWVhOWEtNDI0Yi04YWEwLTY5ZWYwMjA5NTJkZSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImFwcC1tdWx0aXJlZ2lvbiIsInNlc3Npb25fc3RhdGUiOiI1M2YzNzMyOC0wNWRiLTRlNWUtYTE0NS1kZTEwNzVjNTUyOWEiLCJhY3IiOiIxIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImdyb3VwcyI6W10sInVzZXJuYW1lIjoiaW50ZWdyYWNpb25lc0BuaXViaXouY29tLnBlIn0.HfJ-FvIsz1mLYFhQ9Fv--JVjx8JqqoYm1tXROsKK3cy2Qx7CfaaPhZxO41eo2Do0SffNDD_ENusU5d53ZnIN6i4QTehbncSBmKJR2-3Fil7gsdwYV3YpQWFOQEo5VYffvHvxGgBVu0Ou1Mw0Tg93COPkNphHncH_aANiR6wP5MK-4okPrLuceuEbCStoxlOnqdaHGj2XIGaHoyPKp6hb5FAm7eO40WTWAp5YHwL4GMu8eutFRehHBdMkFBs-vSaPWG8kJjFp45QPrfNxPdrVKnByFYl384QU2UBjqEOvq_Oiv9eM5ZS19Kyg10jarriqt0TDPHL5IeXqpME7IXu3nQ
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 175
+1 &gt; Host: apisandbox.vnforappstest.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;captureType&quot;:&quot;manual&quot;,&quot;channel&quot;:&quot;Web&quot;,&quot;countable&quot;:&quot;true&quot;,&quot;order&quot;:{&quot;amount&quot;:&quot;10.5&quot;,&quot;tokenId&quot;:&quot;B92B3B67232C417FAB3B67232C117FAC&quot;,&quot;currency&quot;:&quot;PEN&quot;,&quot;purchaseNumber&quot;:&quot;13062024&quot;}}
+
+19:26:36.416 response time in milliseconds: 1487
+1 &lt; 200
+1 &lt; Date: Wed, 13 Jul 2022 00:26:36 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Content-Length: 1330
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: origin, content-type, accept, authorization, visanet-session-key, visanet-crypto-context-ewsalt, visanet-crypto-context-ewiv, visanet-crypto-context-key
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, HEAD
+{
+  &quot;header&quot;: {
+    &quot;ecoreTransactionUUID&quot;: &quot;a5739ba8-3ccc-4721-ba61-333b7e7aaab5&quot;,
+    &quot;ecoreTransactionDate&quot;: 1657671996367,
+    &quot;millis&quot;: 863
+  },
+  &quot;fulfillment&quot;: {
+    &quot;channel&quot;: &quot;Web&quot;,
+    &quot;merchantId&quot;: &quot;456879852&quot;,
+    &quot;terminalId&quot;: &quot;00000001&quot;,
+    &quot;captureType&quot;: &quot;manual&quot;,
+    &quot;countable&quot;: true,
+    &quot;fastPayment&quot;: false,
+    &quot;signature&quot;: &quot;a5739ba8-3ccc-4721-ba61-333b7e7aaab5&quot;
+  },
+  &quot;order&quot;: {
+    &quot;tokenId&quot;: &quot;B92B3B67232C417FAB3B67232C117FAC&quot;,
+    &quot;purchaseNumber&quot;: &quot;13062024&quot;,
+    &quot;amount&quot;: 10.5,
+    &quot;installment&quot;: 0,
+    &quot;currency&quot;: &quot;PEN&quot;,
+    &quot;authorizedAmount&quot;: 10.5,
+    &quot;authorizationCode&quot;: &quot;091800&quot;,
+    &quot;actionCode&quot;: &quot;000&quot;,
+    &quot;traceNumber&quot;: &quot;60427&quot;,
+    &quot;transactionDate&quot;: &quot;220712192635&quot;,
+    &quot;transactionId&quot;: &quot;993211570048581&quot;
+  },
+  &quot;dataMap&quot;: {
+    &quot;TERMINAL&quot;: &quot;00000001&quot;,
+    &quot;BRAND_ACTION_CODE&quot;: &quot;00&quot;,
+    &quot;BRAND_HOST_DATE_TIME&quot;: &quot;201222141839&quot;,
+    &quot;TRACE_NUMBER&quot;: &quot;60427&quot;,
+    &quot;CARD_TYPE&quot;: &quot;D&quot;,
+    &quot;ECI_DESCRIPTION&quot;: &quot;Transaccion no autenticada pero enviada en canal seguro&quot;,
+    &quot;SIGNATURE&quot;: &quot;a5739ba8-3ccc-4721-ba61-333b7e7aaab5&quot;,
+    &quot;CARD&quot;: &quot;447411******2240&quot;,
+    &quot;MERCHANT&quot;: &quot;109705108&quot;,
+    &quot;STATUS&quot;: &quot;Authorized&quot;,
+    &quot;ACTION_DESCRIPTION&quot;: &quot;Aprobado y completado con exito&quot;,
+    &quot;ID_UNICO&quot;: &quot;993211570048581&quot;,
+    &quot;AMOUNT&quot;: &quot;10.5&quot;,
+    &quot;AUTHORIZATION_CODE&quot;: &quot;091800&quot;,
+    &quot;CURRENCY&quot;: &quot;0604&quot;,
+    &quot;TRANSACTION_DATE&quot;: &quot;220712192635&quot;,
+    &quot;ACTION_CODE&quot;: &quot;000&quot;,
+    &quot;CVV2_VALIDATION_RESULT&quot;: &quot;M&quot;,
+    &quot;ECI&quot;: &quot;07&quot;,
+    &quot;ID_RESOLUTOR&quot;: &quot;420201222142237&quot;,
+    &quot;BRAND&quot;: &quot;visa&quot;,
+    &quot;ADQUIRENTE&quot;: &quot;570002&quot;,
+    &quot;BRAND_NAME&quot;: &quot;VI&quot;,
+    &quot;PROCESS_CODE&quot;: &quot;000000&quot;,
+    &quot;TRANSACTION_ID&quot;: &quot;993211570048581&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>Java.type(&#39;collection.api.Autorizar&#39;).save(&quot;1&quot;, karate.pretty(response))</span>
+      </div>
+    </div>
+    <div class="time-cell passed">113</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:28]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">autorizar</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:28]</span>
+                <span class="scenario-name">Api de Autorizar</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1403</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def TKS = call read(&#39;Seguridad.feature&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def TKT = call read(&#39;Antifraude.feature&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenSeguridad = Java.type(&#39;collection.api.Autorizar&#39;).token(&quot;2&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">21</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def xurl = Java.type(&#39;collection.api.Autorizar&#39;).url(&quot;2&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">15</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* def xdata = Java.type(&#39;collection.api.Autorizar&#39;).data(&quot;&lt;CP&gt;&quot;, TKT.tokenId)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def xdata = Java.type(&#39;collection.api.Autorizar&#39;).data(&quot;2&quot;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">77</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://apisandbox.vnforappstest.com/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Authorization = tokenSeguridad</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>header Content-Type = &#39;application/json&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;api.authorization/v3/authorization/&#39;+xurl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.18">
+      <div class="step-ref passed">18</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request xdata</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#And request read(&#39;classpath:collection/request/Autorizar.json&#39;)</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1238</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.20">19:26:36.657 request:
+1 &gt; POST https://apisandbox.vnforappstest.com/api.authorization/v3/authorization/ecommerce/456879852
+1 &gt; Accept: application/json
+1 &gt; Authorization: eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIwTWR3R0R6RjQ1YS1SbWs3bkhwc2lNYUJweFJQRjNzekEtNW1HWFllMThvIn0.eyJleHAiOjE2NTc2NzU1ODgsImlhdCI6MTY1NzY3MTk4OCwianRpIjoiNmJiOGE4NGYtY2ZlMi00Yzg2LTk3YjEtODRiNGRjZjZkMjk1IiwiaXNzIjoiaHR0cHM6Ly9hY2Nlc3MuaW50dm50LmNvbS9hdXRoL3JlYWxtcy9vbmxpbmUtYXBpcyIsInN1YiI6IjQyNjg5NzZlLWVhOWEtNDI0Yi04YWEwLTY5ZWYwMjA5NTJkZSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImFwcC1tdWx0aXJlZ2lvbiIsInNlc3Npb25fc3RhdGUiOiIxMTA5N2ZkNy1jNzI2LTRkMTgtODU3Yy01YjIzMGFmNTYyNDkiLCJhY3IiOiIxIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiIsImdyb3VwcyI6W10sInVzZXJuYW1lIjoiaW50ZWdyYWNpb25lc0BuaXViaXouY29tLnBlIn0.hGiTd2CJTRvbmw1tNsDAqIinJUuiVrYpPdgZFApNwqU6BOwDBFR7Z7W9aCErtcZ1A0rm1ph0MrZiPbGvb2r3AXzgZZMBdACrX7l9P9Nv2tILUlI5Mqf1qpTetNUT0tDobL3SqoXOpnTHoLZ4oZTUKbYwcZR2AH2KLLmDY_RDpVcmEGyP91oJYRFeG4IRUl1pJ-Y72bXVNnywiWA7CO9PTIrg6El7A5_pwr9EhZmOYMUa0fImcyomSyoSjvFmYeR2qmgDrs46hebVoa64sAKFH4LnNm4iIjzpT7dsY9h4AeQ7Ih8V9F7281d2Z3XqDfcIR6Yd3k9fhaRfKpjKvg65rw
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 172
+1 &gt; Host: apisandbox.vnforappstest.com
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_321)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;captureType&quot;:&quot;manual&quot;,&quot;channel&quot;:&quot;Web&quot;,&quot;countable&quot;:&quot;true&quot;,&quot;order&quot;:{&quot;amount&quot;:&quot;5&quot;,&quot;tokenId&quot;:&quot;77CEEC8A00BE46F68EEC8A00BE06F68A&quot;,&quot;currency&quot;:&quot;PEN&quot;,&quot;purchaseNumber&quot;:&quot;13062025&quot;}}
+
+19:26:37.890 response time in milliseconds: 1231
+1 &lt; 200
+1 &lt; Date: Wed, 13 Jul 2022 00:26:37 GMT
+1 &lt; Content-Type: application/json;charset=utf-8
+1 &lt; Content-Length: 1327
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Headers: origin, content-type, accept, authorization, visanet-session-key, visanet-crypto-context-ewsalt, visanet-crypto-context-ewiv, visanet-crypto-context-key
+1 &lt; Access-Control-Allow-Credentials: true
+1 &lt; Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, HEAD
+{
+  &quot;header&quot;: {
+    &quot;ecoreTransactionUUID&quot;: &quot;56883809-c167-4424-8bfb-098f2d571d6d&quot;,
+    &quot;ecoreTransactionDate&quot;: 1657671997835,
+    &quot;millis&quot;: 719
+  },
+  &quot;fulfillment&quot;: {
+    &quot;channel&quot;: &quot;Web&quot;,
+    &quot;merchantId&quot;: &quot;456879852&quot;,
+    &quot;terminalId&quot;: &quot;00000001&quot;,
+    &quot;captureType&quot;: &quot;manual&quot;,
+    &quot;countable&quot;: true,
+    &quot;fastPayment&quot;: false,
+    &quot;signature&quot;: &quot;56883809-c167-4424-8bfb-098f2d571d6d&quot;
+  },
+  &quot;order&quot;: {
+    &quot;tokenId&quot;: &quot;77CEEC8A00BE46F68EEC8A00BE06F68A&quot;,
+    &quot;purchaseNumber&quot;: &quot;13062025&quot;,
+    &quot;amount&quot;: 5.0,
+    &quot;installment&quot;: 0,
+    &quot;currency&quot;: &quot;PEN&quot;,
+    &quot;authorizedAmount&quot;: 5.0,
+    &quot;authorizationCode&quot;: &quot;091800&quot;,
+    &quot;actionCode&quot;: &quot;000&quot;,
+    &quot;traceNumber&quot;: &quot;60428&quot;,
+    &quot;transactionDate&quot;: &quot;220712192637&quot;,
+    &quot;transactionId&quot;: &quot;993211570048581&quot;
+  },
+  &quot;dataMap&quot;: {
+    &quot;TERMINAL&quot;: &quot;00000001&quot;,
+    &quot;BRAND_ACTION_CODE&quot;: &quot;00&quot;,
+    &quot;BRAND_HOST_DATE_TIME&quot;: &quot;201222141839&quot;,
+    &quot;TRACE_NUMBER&quot;: &quot;60428&quot;,
+    &quot;CARD_TYPE&quot;: &quot;D&quot;,
+    &quot;ECI_DESCRIPTION&quot;: &quot;Transaccion no autenticada pero enviada en canal seguro&quot;,
+    &quot;SIGNATURE&quot;: &quot;56883809-c167-4424-8bfb-098f2d571d6d&quot;,
+    &quot;CARD&quot;: &quot;447411******2240&quot;,
+    &quot;MERCHANT&quot;: &quot;109705108&quot;,
+    &quot;STATUS&quot;: &quot;Authorized&quot;,
+    &quot;ACTION_DESCRIPTION&quot;: &quot;Aprobado y completado con exito&quot;,
+    &quot;ID_UNICO&quot;: &quot;993211570048581&quot;,
+    &quot;AMOUNT&quot;: &quot;5.0&quot;,
+    &quot;AUTHORIZATION_CODE&quot;: &quot;091800&quot;,
+    &quot;CURRENCY&quot;: &quot;0604&quot;,
+    &quot;TRANSACTION_DATE&quot;: &quot;220712192637&quot;,
+    &quot;ACTION_CODE&quot;: &quot;000&quot;,
+    &quot;CVV2_VALIDATION_RESULT&quot;: &quot;M&quot;,
+    &quot;ECI&quot;: &quot;07&quot;,
+    &quot;ID_RESOLUTOR&quot;: &quot;420201222142237&quot;,
+    &quot;BRAND&quot;: &quot;visa&quot;,
+    &quot;ADQUIRENTE&quot;: &quot;570002&quot;,
+    &quot;BRAND_NAME&quot;: &quot;VI&quot;,
+    &quot;PROCESS_CODE&quot;: &quot;000000&quot;,
+    &quot;TRANSACTION_ID&quot;: &quot;993211570048581&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>Java.type(&#39;collection.api.Autorizar&#39;).save(&quot;2&quot;, karate.pretty(response))</span>
+      </div>
+    </div>
+    <div class="time-cell passed">50</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

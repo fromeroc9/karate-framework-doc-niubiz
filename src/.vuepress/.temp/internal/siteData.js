@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/karate-framework-doc/\",\"lang\":\"es-ES\",\"title\":\"Karate\",\"description\":\"Documentación de Karate Framework TSOFT\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"images/logo.png\"}]],\"locales\":{}}")

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"resources\/features\/antifraude[1.1:27]","start":1657671989674,"end":1657671992906,"title":"resources\/features\/antifraude[1.1:27] 19:26:29.674-19:26:32.906 Api de Antifraude"},{"id":2,"group":1,"content":"resources\/features\/antifraude[1.2:28]","start":1657671992911,"end":1657671994580,"title":"resources\/features\/antifraude[1.2:28] 19:26:32.911-19:26:34.580 Api de Antifraude"},{"id":3,"group":1,"content":"resources\/features\/seguridad[1.1:20]","start":1657671985807,"end":1657671988011,"title":"resources\/features\/seguridad[1.1:20] 19:26:25.807-19:26:28.011 generar token de seguridad"},{"id":4,"group":1,"content":"resources\/features\/seguridad[1.2:21]","start":1657671988019,"end":1657671988622,"title":"resources\/features\/seguridad[1.2:21] 19:26:28.019-19:26:28.622 generar token de seguridad"},{"id":5,"group":1,"content":"resources\/features\/autorizar[1.1:27]","start":1657671994738,"end":1657671996529,"title":"resources\/features\/autorizar[1.1:27] 19:26:34.738-19:26:36.529 Api de Autorizar"},{"id":6,"group":1,"content":"resources\/features\/autorizar[1.2:28]","start":1657671996535,"end":1657671997940,"title":"resources\/features\/autorizar[1.2:28] 19:26:36.535-19:26:37.940 Api de Autorizar"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
