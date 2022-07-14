@@ -4,6 +4,19 @@ Este proyecto abarca a la utilización del framework karate para las pruebas de 
 
 Un framework de automatización nos permite tener un conjunto de pautas o reglas para la generación de casos de prueba y estandarizar la ejecución de pruebas tales como UI, API,entre otras.
 
+## Karate vs Http Client
+
+| | Karate | Http Client|
+|---|---|---|
+BDD Sintaxis | Si | Si
+Basado en JVM | Si | Si
+Asíncrono | Si | Si
+Pruebas Secuenciales | Complejo la implentación | Facil de implementar
+Lenguaje | Karate Script (Gherkin) | Java
+Desarrollo | Simple | Complejo
+
+<!-- ![Desarrollo](https://www.mobilelive.ca/wp-content/uploads/2020/11/42-1.jpg) -->
+
 ## Framework Técnico
 
 ![Framework Tecnico](/images/overview/framework-tecnico.png)

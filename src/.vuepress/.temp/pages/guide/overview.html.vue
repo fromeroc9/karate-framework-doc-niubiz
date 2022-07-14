@@ -1,6 +1,49 @@
 <template><div><h2 id="introduccion" tabindex="-1"><a class="header-anchor" href="#introduccion" aria-hidden="true">#</a> Introducción</h2>
 <p>Este proyecto abarca a la utilización del framework karate para las pruebas de servicios, creando producto util y usable para desarrollar diferentes tipos de pruebas.</p>
 <p>Un framework de automatización nos permite tener un conjunto de pautas o reglas para la generación de casos de prueba y estandarizar la ejecución de pruebas tales como UI, API,entre otras.</p>
+<h2 id="karate-vs-http-client" tabindex="-1"><a class="header-anchor" href="#karate-vs-http-client" aria-hidden="true">#</a> Karate vs Http Client</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Karate</th>
+<th>Http Client</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BDD Sintaxis</td>
+<td>Si</td>
+<td>Si</td>
+</tr>
+<tr>
+<td>Basado en JVM</td>
+<td>Si</td>
+<td>Si</td>
+</tr>
+<tr>
+<td>Asíncrono</td>
+<td>Si</td>
+<td>Si</td>
+</tr>
+<tr>
+<td>Pruebas Secuenciales</td>
+<td>Complejo la implentación</td>
+<td>Facil de implementar</td>
+</tr>
+<tr>
+<td>Lenguaje</td>
+<td>Karate Script (Gherkin)</td>
+<td>Java</td>
+</tr>
+<tr>
+<td>Desarrollo</td>
+<td>Simple</td>
+<td>Complejo</td>
+</tr>
+</tbody>
+</table>
+<!-- ![Desarrollo](https://www.mobilelive.ca/wp-content/uploads/2020/11/42-1.jpg) -->
 <h2 id="framework-tecnico" tabindex="-1"><a class="header-anchor" href="#framework-tecnico" aria-hidden="true">#</a> Framework Técnico</h2>
 <p><img src="/images/overview/framework-tecnico.png" alt="Framework Tecnico"></p>
 <ol>

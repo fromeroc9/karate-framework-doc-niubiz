@@ -88,6 +88,12 @@ export const searchIndex = [
       },
       {
         "level": 2,
+        "title": "Karate vs Http Client",
+        "slug": "karate-vs-http-client",
+        "children": []
+      },
+      {
+        "level": 2,
         "title": "Framework Técnico",
         "slug": "framework-tecnico",
         "children": []
