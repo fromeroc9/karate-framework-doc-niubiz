@@ -27,7 +27,7 @@
 <td>Si</td>
 </tr>
 <tr>
-<td>Pruebas Secuenciales</td>
+<td>Manejo de datos dinamicos</td>
 <td>Complejo la implentación</td>
 <td>Facil de implementar</td>
 </tr>
@@ -40,6 +40,21 @@
 <td>Desarrollo</td>
 <td>Simple</td>
 <td>Complejo</td>
+</tr>
+<tr>
+<td>Automatización Nivel 1: Validación solo status o código de respuesta</td>
+<td>SI</td>
+<td>SI</td>
+</tr>
+<tr>
+<td>Automatización Nivel 2: Validación de response, tag o etiqueta y realizar asserts predeterminados</td>
+<td>COMPLEJO</td>
+<td>COMPLEJO</td>
+</tr>
+<tr>
+<td>Automatización Nivel 3: Validación de flujos end to end a nivel back-end (Pruebas secuenciales)</td>
+<td>MUY COMPLEJO</td>
+<td>FACIL</td>
 </tr>
 </tbody>
 </table>

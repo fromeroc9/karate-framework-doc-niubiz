@@ -11,9 +11,12 @@ Un framework de automatización nos permite tener un conjunto de pautas o reglas
 BDD Sintaxis | Si | Si
 Basado en JVM | Si | Si
 Asíncrono | Si | Si
-Pruebas Secuenciales | Complejo la implentación | Facil de implementar
+Manejo de datos dinámicos | Complejo la implentación | Facil de implementar
 Lenguaje | Karate Script (Gherkin) | Java
 Desarrollo | Simple | Complejo
+Automatización Nivel 1: Validación solo status o código de respuesta |	SI	| SI
+Automatización Nivel 2: Validación de response, tag o etiqueta y realizar asserts predeterminados | COMPLEJO | COMPLEJO
+Automatización Nivel 3: Validación de flujos end to end a nivel back-end (Pruebas secuenciales) | MUY COMPLEJO | FACIL
 
 <!-- ![Desarrollo](https://www.mobilelive.ca/wp-content/uploads/2020/11/42-1.jpg) -->
 
