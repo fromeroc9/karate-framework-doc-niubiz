@@ -1,4 +1,4 @@
-import{_ as e,o as a,c as n,d as s}from"./app.d8576f6b.js";var t="/karate-framework-doc/images/empezar/1.png",r="/karate-framework-doc/images/empezar/2.png",i="/karate-framework-doc/images/empezar/3.png";const d={},c=s(`<h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalaci\xF3n</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># clone project</span>
+import{_ as e,o as a,c as n,d as s}from"./app.f6efe1b6.js";var t="/karate-framework-doc/images/empezar/1.png",r="/karate-framework-doc/images/empezar/2.png",i="/karate-framework-doc/images/empezar/3.png";const d={},c=s(`<h2 id="instalacion" tabindex="-1"><a class="header-anchor" href="#instalacion" aria-hidden="true">#</a> Instalaci\xF3n</h2><div class="language-bash ext-sh line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># clone project</span>
 <span class="token function">git</span> clone https://github.com/example/karate-api-framework
 <span class="token comment"># access folder</span>
 <span class="token builtin class-name">cd</span> karate-api-framework
