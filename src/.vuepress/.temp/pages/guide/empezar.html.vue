@@ -4,7 +4,7 @@
 
 <span class="token function">git</span> clone https://<span class="token operator">&lt;</span>username<span class="token operator">></span>@bitbucket.org/VisaNet_TI/framework-karate.git
 <span class="token comment"># access folder</span>
-<span class="token builtin class-name">cd</span> karate-api-framework
+<span class="token builtin class-name">cd</span> framework-karate
 
 mvn <span class="token function">install</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="ejecucion-gui" tabindex="-1"><a class="header-anchor" href="#ejecucion-gui" aria-hidden="true">#</a> Ejecución GUI</h2>
@@ -18,7 +18,7 @@ mvn <span class="token function">install</span>
 <p><img src="/images/empezar/3.png" alt="Ejecución"></p>
 <h2 id="ejecucion-cli" tabindex="-1"><a class="header-anchor" href="#ejecucion-cli" aria-hidden="true">#</a> Ejecución CLI</h2>
 <p>La ejecución CLI es similar a la ejecución a la ejecución del IDE</p>
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">cd</span> web-automation-framework
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">cd</span> framework-karate
 
 <span class="token comment"># To run scenarios with @debug1 and @debug2:</span>
 <span class="token comment"># Old version:</span>

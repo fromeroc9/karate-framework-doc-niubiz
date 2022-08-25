@@ -6,7 +6,7 @@
 
 git clone https://<username>@bitbucket.org/VisaNet_TI/framework-karate.git
 # access folder
-cd karate-api-framework
+cd framework-karate
 
 mvn install
 ```
@@ -35,7 +35,7 @@ Podemos ejecuctar los diferentes escenario por separado o inicializar todo el fe
 La ejecución CLI es similar a la ejecución a la ejecución del IDE
 
 ```bash
-cd web-automation-framework
+cd framework-karate
 
 # To run scenarios with @debug1 and @debug2:
 # Old version:
