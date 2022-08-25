@@ -2,7 +2,9 @@
 
 ```bash
 # clone project
-git clone https://github.com/example/karate-api-framework
+<username> = Usuario que tenga acceso al repositorio 
+
+git clone https://<username>@bitbucket.org/VisaNet_TI/framework-karate.git
 # access folder
 cd karate-api-framework
 

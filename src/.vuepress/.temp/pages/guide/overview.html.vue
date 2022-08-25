@@ -1,4 +1,5 @@
-<template><div><h2 id="introduccion" tabindex="-1"><a class="header-anchor" href="#introduccion" aria-hidden="true">#</a> Introducción</h2>
+<template><div><h1 id="vision-general" tabindex="-1"><a class="header-anchor" href="#vision-general" aria-hidden="true">#</a> Visión General</h1>
+<h2 id="introduccion" tabindex="-1"><a class="header-anchor" href="#introduccion" aria-hidden="true">#</a> Introducción</h2>
 <p>Este proyecto abarca a la utilización del framework karate para las pruebas de servicios, creando producto util y usable para desarrollar diferentes tipos de pruebas.</p>
 <p>Un framework de automatización nos permite tener un conjunto de pautas o reglas para la generación de casos de prueba y estandarizar la ejecución de pruebas tales como UI, API,entre otras.</p>
 <h2 id="karate-vs-http-client" tabindex="-1"><a class="header-anchor" href="#karate-vs-http-client" aria-hidden="true">#</a> Karate vs Http Client</h2>

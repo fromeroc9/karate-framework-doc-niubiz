@@ -78,7 +78,7 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "",
+    "title": "Visión General",
     "headers": [
       {
         "level": 2,
