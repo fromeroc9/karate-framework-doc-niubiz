@@ -5,6 +5,8 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"C:/Users/Flavio.Romero/Desktop/DOCUMENTOS/Nuibiz/3. Sistemas/Documentacion/vuepress karate/src/.vuepress/.temp/pages/index.html.vue")),
   // path: /guide/caso.html
   "v-45ec6b1a": defineAsyncComponent(() => import(/* webpackChunkName: "v-45ec6b1a" */"C:/Users/Flavio.Romero/Desktop/DOCUMENTOS/Nuibiz/3. Sistemas/Documentacion/vuepress karate/src/.vuepress/.temp/pages/guide/caso.html.vue")),
+  // path: /guide/documentacion.html
+  "v-6c48f93a": defineAsyncComponent(() => import(/* webpackChunkName: "v-6c48f93a" */"C:/Users/Flavio.Romero/Desktop/DOCUMENTOS/Nuibiz/3. Sistemas/Documentacion/vuepress karate/src/.vuepress/.temp/pages/guide/documentacion.html.vue")),
   // path: /guide/empezar.html
   "v-369d6817": defineAsyncComponent(() => import(/* webpackChunkName: "v-369d6817" */"C:/Users/Flavio.Romero/Desktop/DOCUMENTOS/Nuibiz/3. Sistemas/Documentacion/vuepress karate/src/.vuepress/.temp/pages/guide/empezar.html.vue")),
   // path: /guide/overview.html
