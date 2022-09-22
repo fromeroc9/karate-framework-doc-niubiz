@@ -162,8 +162,9 @@ Durante todo el proceso de atención de automatización se cuenta con el soporte
 
 #### Datos del repositorio
 
-Nombre Repositorio:    test-automation
-Acceso al repositorio: TBD 
+Nombre Repositorio: framework-karate
+
+Acceso al repositorio: https://bitbucket.org/VisaNet_TI/framework-karate/src/master/
 
 #### Características del repositorio
 

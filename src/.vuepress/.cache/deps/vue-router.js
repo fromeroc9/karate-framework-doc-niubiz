@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-M2BZAP2Y.js";
+} from "./chunk-4SAETLLK.js";
 import {
   computed,
   defineComponent,
@@ -18,8 +18,8 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-TKQVRED5.js";
-import "./chunk-RADYGWPA.js";
+} from "./chunk-3EBTFJQ4.js";
+import "./chunk-DPXDZUUL.js";
 import "./chunk-4SKMVC4J.js";
 
 // node_modules/vue-router/dist/vue-router.mjs
@@ -894,7 +894,7 @@ function createRouterMatcher(routes, globalOptions) {
         if (isRootAdd && record.name && !isAliasRecord(matcher))
           removeRoute(record.name);
       }
-      if (mainNormalizedRecord.children) {
+      if ("children" in mainNormalizedRecord) {
         const children = mainNormalizedRecord.children;
         for (let i = 0; i < children.length; i++) {
           addRoute(children[i], matcher, originalRecord && originalRecord.children[i]);
@@ -2432,7 +2432,7 @@ export {
   viewDepthKey
 };
 /*!
-  * vue-router v4.1.2
+  * vue-router v4.1.0
   * (c) 2022 Eduardo San Martin Morote
   * @license MIT
   */
