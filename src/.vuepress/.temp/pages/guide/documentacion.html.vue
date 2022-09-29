@@ -29,7 +29,7 @@
 <li>Analista QA. Encargado de realizar las transferencias funcionales para futuros desarrollos en automatización, además de ejecutar los scripts automatizados.</li>
 </ul>
 <h3 id="cobertura-de-automatizacion" tabindex="-1"><a class="header-anchor" href="#cobertura-de-automatizacion" aria-hidden="true">#</a> Cobertura de Automatización</h3>
-<p>El framework técnico en combinación con diferentes herramientas de automatización de pruebas, permite la cobertura de pruebas en aplicativos <strong>SERVICIOS / WEB:</strong></p>
+<p>El framework técnico en combinación con diferentes herramientas de automatización de pruebas, permite la cobertura de pruebas en aplicativos <strong>SERVICIOS</strong></p>
 <table>
 <thead>
 <tr>
@@ -39,12 +39,8 @@
 </thead>
 <tbody>
 <tr>
-<td>Aplicaciones Web</td>
-<td>Selenium / WebDriver / JAVA</td>
-</tr>
-<tr>
 <td>Servicios</td>
-<td>Selenium / HttpClient / Java</td>
+<td>Karate / Java</td>
 </tr>
 </tbody>
 </table>
@@ -121,6 +117,7 @@ Las actividades a realizar dentro de esta etapa son las siguientes:</p>
 <ul>
 <li>Identificar los candidatos que sean viables funcionalmente/técnicamente.</li>
 <li>Asignar un nivel de complejidad</li>
+<li>Asignar puntuación a los candidatos viables en base a los siguientes criterios: Valor de Caso de Prueba, Riesgo de Negocio, Costro Eficiencia e Historial.</li>
 </ul>
 <p><strong>Herramientas usadas</strong></p>
 <ul>
@@ -156,8 +153,9 @@ Finalmente, los scripts estarán disponibles para las ejecuciones programadas o 
 <h4 id="caracteristicas-del-repositorio" tabindex="-1"><a class="header-anchor" href="#caracteristicas-del-repositorio" aria-hidden="true">#</a> Características del repositorio</h4>
 <p>Existe solo un repositorio en donde almacena un proyecto java con la estructura maven. Este proyecto incluye escenarios para los diferentes aplicativos de Niubiz.</p>
 <ol>
-<li>Accesos: Escritura y Lectura:  Desarrolladores de test</li>
-<li>Estrategia de Ramas:</li>
+<li><strong>master:</strong> Branch contenedor de las versiones finales de los flujos automatizados.</li>
+<li><strong>qa:</strong> Branch contenedor de las versiones verificadas por el equipo de calidad.</li>
+<li><strong>developer:</strong> Branch contenedor de las versiones desarrollados por el equipo de automatización.</li>
 </ol>
 <p><img src="/images/documentacion/estrategias.png" alt="Estrategias de Ramas"></p>
 <h3 id="dinamica-de-trabajo" tabindex="-1"><a class="header-anchor" href="#dinamica-de-trabajo" aria-hidden="true">#</a> Dinámica de trabajo</h3>
@@ -165,11 +163,10 @@ Finalmente, los scripts estarán disponibles para las ejecuciones programadas o 
 <ol>
 <li>Al llegar un nuevo proyecto, solicitud a demanda de automatización de prueba de un aplicativo o mantenimiento de scripts, se deberá crear una rama con el nombre del proyecto o aplicativo.</li>
 <li>Los automatizadores descargan la versión del master a su local.</li>
-<li>Los automatizadores desarrollan los nuevos scripts en la nueva rama. Realizan las pruebas correspondientes y realizan un push dentro de la nueva rama.</li>
-<li>Los automatizadores realizan un pull request de la nueva rama a la rama master.</li>
-<li>Se realiza una revisión de pares al código que se quiere subir al master.</li>
-<li>Se aprueba el pull request y la rama master tiene la versión actualizada.</li>
-<li>Al finalizar el desarrollo de los nuevos scripts, se elimina la rama creada.</li>
+<li>Los automatizadores desarrollan los nuevos scripts en la nueva rama developer. Realizan las pruebas correspondientes y realizan un push dentro de la misma rama.</li>
+<li>Se realiza una revisión de pares al código que se quiere subir a la rama qa.</li>
+<li>Se aprueba el desarrollo se sube el código a la rama qa.</li>
+<li>Se aprueba el pull request para que la rama master tenga la versión actualizada.</li>
 </ol>
 <p><img src="/images/documentacion/dinamica_trabajo.png" alt="Dinamica de Trabajo"></p>
 </div></template>
